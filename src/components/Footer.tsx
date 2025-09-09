@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   const handleEmail = () => {
-    window.open("mailto:info@khaliflogistics.com", "_blank");
+    window.open("mailto:khaliflogistics2025@gmail.com", "_blank");
   };
 
   return (
@@ -31,7 +31,7 @@ const Footer = () => {
                   variant="outline" 
                   size="sm"
                   onClick={handleWhatsApp}
-                  className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+                  className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/50"
                 >
                   <MessageCircle className="h-4 w-4" />
                 </Button>
@@ -39,7 +39,7 @@ const Footer = () => {
                   variant="outline" 
                   size="sm"
                   onClick={handleCall}
-                  className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+                  className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/50"
                 >
                   <Phone className="h-4 w-4" />
                 </Button>
@@ -47,7 +47,7 @@ const Footer = () => {
                   variant="outline" 
                   size="sm"
                   onClick={handleEmail}
-                  className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+                  className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/50"
                 >
                   <Mail className="h-4 w-4" />
                 </Button>
@@ -72,7 +72,7 @@ const Footer = () => {
               <div className="space-y-3 text-primary-foreground/80">
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-accent" />
-                  <span className="text-sm">Abuja, Nigeria</span>
+                  <span className="text-sm">Suite B2 Amaden Plaza, Plot no1335, Mabuji Abuja, Nigeria</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-accent" />
@@ -84,7 +84,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-accent" />
-                  <span className="text-sm">info@khaliflogistics.com</span>
+                  <span className="text-sm">khaliflogistics2025@gmail.com</span>
                 </div>
               </div>
             </div>

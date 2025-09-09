@@ -12,7 +12,7 @@ const ContactSection = () => {
   };
 
   const handleEmail = () => {
-    window.open("mailto:info@khaliflogistics.com", "_blank");
+    window.open("mailto:khaliflogistics2025@gmail.com", "_blank");
   };
 
   return (
@@ -39,7 +39,7 @@ const ContactSection = () => {
                   </h3>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-foreground font-medium mb-2">📍 Abuja, Nigeria</p>
+                  <p className="text-foreground font-medium mb-2">📍 Suite B2 Amaden Plaza, Plot no1335, Mabuji Abuja, Nigeria</p>
                   <p className="text-muted-foreground">
                     Strategically located in Nigeria's capital for optimal nationwide coverage
                   </p>
